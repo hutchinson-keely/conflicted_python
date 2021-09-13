@@ -9,5 +9,4 @@ def print_files(directory):
         print('file {} is {}'.format(i, f))
 
 if __name__ == '__main__':
-    directory = "/home/robertsj/*"
-    print_files(directory)
+    directory = "/home/robertsj*"
